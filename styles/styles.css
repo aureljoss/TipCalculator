@@ -2,5 +2,25 @@ body{
     background-color: #C5E4E7;
 }
 
+#card{
+    width:900px;
+    height:480px;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.half{
+    margin:30px;
+    width:45%;
+}
+
+#green{
+    background-color: #00474B;
+    border-radius: 10px;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
