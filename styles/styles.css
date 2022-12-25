@@ -40,7 +40,44 @@ body{
     width: 70px;
     padding: 3px 0px;
     border-radius: 5px;
-    border: 0px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    border:0px;
+}
+
+.blue{
+    background-color: #F3F9FA;
+}
+
+.default-button{
+    background-color: #00474B;
+    color:white;
+}
+
+#twenty{
+    background-color: #26C2AE;
+}
+
+#custom{
+    background-color: #F3F9FA;
+}
+
+#reset{
+    background-color: #26C2AE;
+    width:80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#logo{
+    margin:auto;
+    width:150px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
