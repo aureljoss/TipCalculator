@@ -1,84 +1,98 @@
-body{
-    background-color: #C5E4E7;
+body {
+  background-color: #c5e4e7;
+  font-family: "Space Mono", monospace;
 }
 
-#card{
-    width:900px;
-    height:480px;
-    margin:auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
-    align-items: center;
+#card {
+  width: 900px;
+  height: 480px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  align-items: center;
 }
 
-.half{
-    margin:auto;
-    width:45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#container {
+  display: flex;
+  height: 100vh;
 }
 
-#green{
-    background-color: #00474B;
-    border-radius: 10px;
-    height:90%;
+.half {
+  margin: auto;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#white{
-    height:90%;
+#green {
+  background-color: #00474b;
+  border-radius: 10px;
+  height: 90%;
 }
 
-#tip-percentage{
-    padding: 20px 0px;
+#white {
+  height: 90%;
 }
 
-#tip-percentage button{
-    margin: 5px 5px;
-    width: 70px;
-    padding: 3px 0px;
-    border-radius: 5px;
+#tip-percentage {
+  padding: 20px 0px;
 }
 
-.flex{
-    display: flex;
-    flex-direction: column;
+#tip-percentage button {
+  margin: 5px 5px;
+  width: 70px;
+  padding: 3px 0px;
+  border-radius: 5px;
 }
 
-input, button{
-    border:0px;
+.flex {
+  display: flex;
+  flex-direction: column;
 }
 
-.blue{
-    background-color: #F3F9FA;
+input,
+button {
+  border: 0px;
 }
 
-.default-button{
-    background-color: #00474B;
-    color:white;
+.blue {
+  background-color: #f3f9fa;
 }
 
-#twenty{
-    background-color: #26C2AE;
+.default-button {
+  background-color: #00474b;
+  color: white;
 }
 
-#custom{
-    background-color: #F3F9FA;
+#twenty {
+  background-color: #26c2ae;
 }
 
-#reset{
-    background-color: #26C2AE;
-    width:80%;
-    padding: 10px;
-    border-radius: 5px;
+#custom {
+  background-color: #f3f9fa;
 }
 
-#logo{
-    margin:auto;
-    width:150px;
+#reset {
+  background-color: #26c2ae;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+#logo {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

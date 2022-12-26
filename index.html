@@ -12,6 +12,12 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <script src="scripts/app.js"></script>
 
     <title>Tip calculator app</title>
@@ -23,40 +29,42 @@
     <div id="logo">
       <img src="/images/logo.svg" id="logo-img" alt="logo" />
     </div>
-    <div id="card">
-      <div class="half" id="white">
-        <div>
-          <form class="flex">
-            <label for="bill">Bill</label>
-            <input type="text" id="bill" name="bill" class="blue"/>
-          </form>
-        </div>
-        <div id="tip-percentage">
-          <button type="button" class="default-button">5%</button>
-          <button type="buttom" class="default-button">10%</button>
-          <button type="button" class="default-button">15%</button>
-          <button type="button" id="twenty">25%</button>
-          <button type="button" class="default-button">50%</button>
-          <button type="button" id="custom">Custom</button>
-        </div>
-        <div id="people" class="flex">
-          <label for="people">Number of People</label>
-          <input type="text" id="people" name="name" class="blue"/>
-        </div>
-      </div>
-
-      <div class="half" id="green">
-        <div id="green-content">
-          <div class="calculations">
-            <label for="tip-amount">Tip Amount / person</label>
-            <input type="text" id="tip-amount" name="tip-amount" />
-          </div>
-          <div class="calculations">
-            <label for="total">Total / person</label>
-            <input type="text" id="total" name="total" />
-          </div>
+    <div id="container">
+      <div id="card">
+        <div class="half" id="white">
           <div>
-            <button type="reset" id="reset">RESET</button>
+            <form class="flex">
+              <label for="bill">Bill</label>
+              <input type="text" id="bill" name="bill" class="blue" />
+            </form>
+          </div>
+          <div id="tip-percentage">
+            <button type="button" class="default-button">5%</button>
+            <button type="buttom" class="default-button">10%</button>
+            <button type="button" class="default-button">15%</button>
+            <button type="button" id="twenty">25%</button>
+            <button type="button" class="default-button">50%</button>
+            <button type="button" id="custom">Custom</button>
+          </div>
+          <div id="people" class="flex">
+            <label for="people">Number of People</label>
+            <input type="text" id="people" name="name" class="blue" />
+          </div>
+        </div>
+
+        <div class="half" id="green">
+          <div id="green-content">
+            <div class="calculations">
+              <label for="tip-amount">Tip Amount / person</label>
+              <input type="text" id="tip-amount" name="tip-amount" />
+            </div>
+            <div class="calculations">
+              <label for="total">Total / person</label>
+              <input type="text" id="total" name="total" />
+            </div>
+            <div>
+              <button type="reset" id="reset">RESET</button>
+            </div>
           </div>
         </div>
       </div>
