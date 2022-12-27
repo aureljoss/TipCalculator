@@ -24,7 +24,7 @@ body {
   width: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #green {
@@ -34,18 +34,33 @@ body {
 }
 
 #white {
-  height: 90%;
+  height: 80%;
 }
 
 #tip-percentage {
   padding: 20px 0px;
 }
 
-#tip-percentage button {
+#tip-percentage button{
   margin: 5px 5px;
   width: 70px;
   padding: 3px 0px;
   border-radius: 5px;
+}
+
+#custom{
+    margin: 5px 5px;
+    width: 110px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    background-color: #f3f9fa;
+    text-align: center;
+    color: #547878;
+    font-size: 24px;
+}
+
+#custom::placeholder{
+    color: #547878;
 }
 
 .flex {
@@ -60,6 +75,10 @@ input,button {
 
 .card input{
     color: #00474B;
+}
+
+input{
+    border-radius: 5px;
 }
 
 #white label{
@@ -109,15 +128,16 @@ input,button {
   background-color: #26c2ae;
 }
 
-#custom {
-  background-color: #f3f9fa;
+#reset{
+    bottom:0px;
 }
 
-#reset {
+#reset-btn {
   background-color: #26c2ae;
-  width: 80%;
-  padding: 10px;
   border-radius: 5px;
+  padding:10px;
+  width:100%;
+  margin:auto;
 }
 
 #logo {
@@ -144,6 +164,15 @@ input,button {
     background-color: none;
 }
 
+#green-content{
+    margin: 2em;
+}
+
+#calcs{
+    height:200px;
+    margin:15% 0px;
+}
+
 .calculations{
     display: flex;
     justify-content: space-between;
@@ -164,11 +193,12 @@ input,button {
     color:#26c2ae;
 }
 
-#tip-amount::before{
-    content: url(/images/icon-dollar.svg);
-}
-
 .grey{
     color: #7F9D9F;
     font-size: 13px;
+}
+
+#tip-percentage button:hover{
+    background-color: #26c2ae;
+    cursor: pointer;
 }

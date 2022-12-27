@@ -40,31 +40,35 @@
           </div>
             <label>Select Tip %</label>
             <div id="tip-percentage">
-              <button type="button" class="default-button">5%</button>
-              <button type="buttom" class="default-button">10%</button>
               <button type="button" class="default-button">15%</button>
-              <button type="button" id="twenty">25%</button>
+              <button type="buttom" class="default-button">18%</button>
+              <button type="button" id="twenty">20%</button>
+              <button type="button" class="default-button">25%</button>
               <button type="button" class="default-button">50%</button>
-              <button type="button" id="custom">Custom</button>
+              <input type="text" id="custom" name="custom" placeholder="Custom">
             </div>
-            <div id="people" class="flex">
+            <div id="number-people" class="flex">
               <label for="people">Number of People</label>
-              <input type="text" id="people" name="name" class="blue" placeholder="2"/>
+              <input type="text" id="people" name="name" class="blue" placeholder="0"/>
             </div>
         </div>
 
         <div class="half" id="green">
           <div id="green-content">
-            <div class="calculations">
-              <label for="tip-amount">Tip Amount<br><span class="grey">/ person</span></label>
-              <input type="text" id="tip-amount" name="tip-amount" placeholder="0.00" />
+            <div id="calcs">
+              <div class="calculations">
+                <label for="tip-amount">Tip Amount<br><span class="grey">/ person</span></label>
+                  <input type="text" id="tip-amount" name="tip-amount" placeholder="$0.00" />
+              </div>
+              <div class="calculations">
+                <label for="total">Total<br><span class="grey">/ person</span></label>
+                <div>  
+                  <input type="text" id="total" name="total" placeholder="$0.00"/>
+                </div>
+              </div>
             </div>
-            <div class="calculations">
-              <label for="total">Total<br><span class="grey">/ person</span></label>
-              <input type="text" id="total" name="total" placeholder="0.00"/>
-            </div>
-            <div>
-              <button type="reset" id="reset">RESET</button>
+            <div id="reset">
+              <button type="reset" id="reset-btn">RESET</button>
             </div>
           </div>
         </div>
