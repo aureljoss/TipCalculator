@@ -58,11 +58,11 @@ input,button {
   font-family: "Space Mono", monospace;
 }
 
-input{
+.card input{
     color: #00474B;
 }
 
-label{
+#white label{
     color: #5E7A7D;
     font-size: 16px;
 }
@@ -133,4 +133,42 @@ label{
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+#green-content input{
+    font-size: 48px;
+    color: #26C2AE;
+    background-color: none;
+    max-width:200px;
+    text-align: end;
+    background-color: none;
+}
+
+.calculations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculations label{
+    color:white;
+    width: 100px;
+    font-size: 16px;
+}
+
+.calculations input{
+    background-color: #00474b;
+    color:#26C2AE
+}
+
+.calculations input::placeholder{
+    color:#26c2ae;
+}
+
+#tip-amount::before{
+    content: url(/images/icon-dollar.svg);
+}
+
+.grey{
+    color: #7F9D9F;
+    font-size: 13px;
 }
