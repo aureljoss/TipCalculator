@@ -7,3 +7,17 @@ const people=document.getElementById('people');
 
 const tipAmount=document.getElementById('tip-amount');
 const totalPerson=document.getElementById('total');
+
+// tipSelected.addEventListener('click',)
+
+defaultTwenty.addEventListener('click',twenty);
+
+// const calculateTip=()=>{
+//     if 
+// }
+
+const twenty=(){
+    const twentyTip=(bill*20)%100;
+    
+
+}
