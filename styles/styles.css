@@ -102,6 +102,14 @@ input{
     background-size: 12px;
 }
 
+#bill, #people{
+    border:2px solid transparent;
+}
+
+#bill:hover, #people:hover{
+    border:2px solid #26C2AE;
+}
+
 #people{
     background-image: url('/images/icon-person.svg');
     background-repeat: no-repeat;
@@ -138,6 +146,10 @@ input{
   padding:10px;
   width:100%;
   margin:auto;
+}
+
+#reset-btn:hover{
+    background-color: #9FE8DF;
 }
 
 #logo {
