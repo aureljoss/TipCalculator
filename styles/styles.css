@@ -159,9 +159,9 @@ input{
 
 #logo {
   width: 150px;
-  justify-content: center;
-  display: flex;
-  margin: auto;
+  position: absolute;
+  top:15vh;
+  left:48%
 }
 
 .attribution {
@@ -203,7 +203,8 @@ input{
 
 .calculations input{
     background-color: #00474b;
-    color:#26C2AE
+    color:#26C2AE;
+    width:200px;
 }
 
 .calculations input::placeholder{
@@ -241,6 +242,22 @@ input{
 
 .margin{
     margin-top:20px;
+}
+
+#green-content input{
+    font-size: 32px;
+}
+
+.calculations input{
+    background-color: #00474b;
+    color:#26C2AE;
+    width:100px;
+}
+
+#logo{
+    position: absolute;
+    top:5vh;
+    left:42%;
 }
 
 }
