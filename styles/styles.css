@@ -5,8 +5,8 @@ body {
 
 #card {
   width: 900px;
-  height: 480px;
   margin: auto;
+  padding:30px 20px;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -22,6 +22,7 @@ body {
 .half {
   margin: auto;
   width: 45%;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,6 +32,7 @@ body {
   background-color: #00474b;
   border-radius: 10px;
   height: 90%;
+  margin-top: 20px;
 }
 
 #white {
@@ -39,17 +41,19 @@ body {
 
 #tip-percentage {
   padding: 20px 0px;
+  width:100%;
+  justify-content: space-between;
 }
 
 #tip-percentage button{
-  margin: 5px 5px;
+  margin: 5px auto;
   width: 70px;
   padding: 3px 0px;
   border-radius: 5px;
 }
 
 #custom{
-    margin: 5px 5px;
+    margin: 5px auto;
     width: 110px;
     padding: 6px 0px;
     border-radius: 5px;
@@ -150,13 +154,14 @@ input{
 
 #reset-btn:hover{
     background-color: #9FE8DF;
+    cursor: pointer;
 }
 
 #logo {
   width: 150px;
-  position: absolute;
-  left: 50%;
-  top: 15%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
 }
 
 .attribution {
@@ -213,4 +218,29 @@ input{
 #tip-percentage button:hover{
     background-color: #26c2ae;
     cursor: pointer;
+}
+
+
+/* Media Queries */
+
+/*Mobile - 480px breakpoint */
+
+@media screen and (max-width: 900px) {
+
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  padding:30px 30px;
+}
+
+.half div{
+    margin:10px 0px;
+}
+
+.margin{
+    margin-top:20px;
+}
+
 }
