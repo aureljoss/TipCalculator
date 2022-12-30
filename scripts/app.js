@@ -17,7 +17,7 @@ defaultTwenty.addEventListener('click',twenty);
 // }
 
 const twenty=(){
-    const twentyTip=(bill*20)%100;
-    
-
+    return twentyTip=(bill*20)%100;
 }
+
+console.log(twenty);

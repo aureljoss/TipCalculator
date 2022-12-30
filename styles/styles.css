@@ -6,7 +6,7 @@ body {
 #card {
   width: 900px;
   margin: auto;
-  padding:30px 20px;
+  padding: 30px 20px;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -41,30 +41,30 @@ body {
 
 #tip-percentage {
   padding: 20px 0px;
-  width:100%;
+  width: 100%;
   justify-content: space-between;
 }
 
-#tip-percentage button{
+#tip-percentage button {
   margin: 5px auto;
   width: 70px;
   padding: 3px 0px;
   border-radius: 5px;
 }
 
-#custom{
-    margin: 5px auto;
-    width: 110px;
-    padding: 6px 0px;
-    border-radius: 5px;
-    background-color: #f3f9fa;
-    text-align: center;
-    color: #547878;
-    font-size: 24px;
+#custom {
+  margin: 5px auto;
+  width: 110px;
+  padding: 6px 0px;
+  border-radius: 5px;
+  background-color: #f3f9fa;
+  text-align: center;
+  color: #547878;
+  font-size: 24px;
 }
 
-#custom::placeholder{
-    color: #547878;
+#custom::placeholder {
+  color: #547878;
 }
 
 .flex {
@@ -72,53 +72,58 @@ body {
   flex-direction: column;
 }
 
-input,button {
+input,
+button {
   border: 0px;
   font-family: "Space Mono", monospace;
 }
 
-.card input{
-    color: #00474B;
+.card input {
+  color: #00474b;
 }
 
-input{
-    border-radius: 5px;
+input {
+  border-radius: 5px;
 }
 
-#white label{
-    color: #5E7A7D;
-    font-size: 16px;
+#white label {
+  color: #5e7a7d;
+  font-size: 16px;
 }
 
-#bill,#people{
-    text-align: end;
-    font-size: 24px;
+#bill,
+#people {
+  text-align: end;
+  font-size: 24px;
 }
 
-#bill::placeholder,#people::placeholder{
-    color: #00474B;
+#bill::placeholder,
+#people::placeholder {
+  color: #00474b;
 }
 
-#bill{
-    background-image: url('/images/icon-dollar.svg');
-    background-repeat: no-repeat;
-    background-position: 1em;
-    background-size: 12px;
+#bill {
+  background-image: url("./images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 1em;
+  background-size: 12px;
 }
 
-#bill, #people{
-    border:2px solid transparent;
+#bill,
+#people {
+  border: 2px solid transparent;
 }
 
-#bill:hover, #people:hover{
-    border:2px solid #26C2AE;
+#bill:hover,
+#people:hover {
+  border: 2px solid #26c2ae;
 }
 
-#people{
-    background-image: url('/images/icon-person.svg');
-    background-repeat: no-repeat;
-    background-position: 1em;
-    background-size: 12px;
+#people {
+  background-image: url("./images/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position: 1em;
+  background-size: 12px;
 }
 
 .blue {
@@ -130,38 +135,39 @@ input{
   color: white;
 }
 
-#tip-percentage button{
-    font-size: 24px;
-    width:110px;
-    height:48px;
+#tip-percentage button {
+  font-size: 24px;
+  width: 110px;
+  height: 48px;
 }
 
 #twenty {
   background-color: #26c2ae;
 }
 
-#reset{
-    bottom:0px;
+#reset {
+  bottom: 0px;
 }
 
 #reset-btn {
   background-color: #26c2ae;
   border-radius: 5px;
-  padding:10px;
-  width:100%;
-  margin:auto;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
 }
 
-#reset-btn:hover{
-    background-color: #9FE8DF;
-    cursor: pointer;
+#reset-btn:hover {
+  background-color: #9fe8df;
+  cursor: pointer;
 }
 
 #logo {
   width: 150px;
   position: absolute;
-  top:15vh;
-  left:48%
+  height: 20%;
+  left: 48%;
+  top: 8%;
 }
 
 .attribution {
@@ -172,92 +178,89 @@ input{
   color: hsl(228, 45%, 44%);
 }
 
-#green-content input{
-    font-size: 48px;
-    color: #26C2AE;
-    background-color: none;
-    max-width:200px;
-    text-align: end;
-    background-color: none;
+#green-content input {
+  font-size: 48px;
+  color: #26c2ae;
+  background-color: none;
+  max-width: 200px;
+  text-align: end;
+  background-color: none;
 }
 
-#green-content{
-    margin: 2em;
+#green-content {
+  margin: 2em;
 }
 
-#calcs{
-    height:200px;
-    margin:15% 0px;
+#calcs {
+  height: 200px;
+  margin: 15% 0px;
 }
 
-.calculations{
-    display: flex;
-    justify-content: space-between;
+.calculations {
+  display: flex;
+  justify-content: space-between;
 }
 
-.calculations label{
-    color:white;
-    width: 100px;
-    font-size: 16px;
+.calculations label {
+  color: white;
+  width: 100px;
+  font-size: 16px;
 }
 
-.calculations input{
-    background-color: #00474b;
-    color:#26C2AE;
-    width:200px;
+.calculations input {
+  background-color: #00474b;
+  color: #26c2ae;
+  width: 200px;
 }
 
-.calculations input::placeholder{
-    color:#26c2ae;
+.calculations input::placeholder {
+  color: #26c2ae;
 }
 
-.grey{
-    color: #7F9D9F;
-    font-size: 13px;
+.grey {
+  color: #7f9d9f;
+  font-size: 13px;
 }
 
-#tip-percentage button:hover{
-    background-color: #26c2ae;
-    cursor: pointer;
+#tip-percentage button:hover {
+  background-color: #26c2ae;
+  cursor: pointer;
 }
-
 
 /* Media Queries */
 
 /*Mobile - 480px breakpoint */
 
 @media screen and (max-width: 900px) {
+  #card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding: 30px 30px;
+  }
 
-#card {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: auto;
-  padding:30px 30px;
-}
+  .half div {
+    margin: 10px 0px;
+  }
 
-.half div{
-    margin:10px 0px;
-}
+  .margin {
+    margin-top: 20px;
+  }
 
-.margin{
-    margin-top:20px;
-}
-
-#green-content input{
+  #green-content input {
     font-size: 32px;
-}
+  }
 
-.calculations input{
+  .calculations input {
     background-color: #00474b;
-    color:#26C2AE;
-    width:100px;
-}
+    color: #26c2ae;
+    width: 100px;
+  }
 
-#logo{
+  #logo {
     position: absolute;
-    top:5vh;
-    left:42%;
-}
-
+    top: 5%;
+    left: 42%;
+  }
 }
