@@ -5,19 +5,22 @@ const custom=document.getElementById('custom');
 
 const people=document.getElementById('people');
 
-const tipAmount=document.getElementById('tip-amount');
+const tipAmount=document.getElementById('tip-amount').value;
 const totalPerson=document.getElementById('total');
+
+let billTotal=0;
+let tipPercentage=0;
+let peopleTotal=0;
 
 // tipSelected.addEventListener('click',)
 
 defaultTwenty.addEventListener('click',twenty);
 
-// const calculateTip=()=>{
-//     if 
-// }
+const twenty=(bill){
+    const calc=bill*0.2;
 
-const twenty=(){
-    return twentyTip=(bill*20)%100;
 }
+
+tipAmount.push('twenty');
 
 console.log(twenty);
