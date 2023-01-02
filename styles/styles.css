@@ -227,6 +227,13 @@ input {
   cursor: pointer;
 }
 
+.attribution{
+  position: fixed;
+  bottom:1rem;
+  left:50%;
+  margin-left: -190px;
+}
+
 /* Media Queries */
 
 /*Mobile - 480px breakpoint */
@@ -242,7 +249,7 @@ input {
     }
 
   #container{
-    margin: 10rem auto;
+    margin: 20vh auto;
   }
 
   .half div {
@@ -270,5 +277,9 @@ input {
   }
 
   .attribution{
+    position:relative;
     margin-top: 18rem;
+    bottom:auto;
+    left:auto;
+    margin-left: auto;
   }
