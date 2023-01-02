@@ -238,6 +238,11 @@ input {
     width: 300px;
     margin: auto;
     padding: 30px 30px;
+    height:auto;
+    }
+
+  #container{
+    margin: 10rem auto;
   }
 
   .half div {
@@ -263,4 +268,7 @@ input {
     top: 5%;
     left: 42%;
   }
-}
+
+  .attribution{
+    margin-top: 18rem;
+  }
