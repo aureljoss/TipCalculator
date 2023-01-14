@@ -43,5 +43,7 @@ function totals(tip) {
     document.getElementById("tip-amount").value = "$0.00";
     document.getElementById("total").value = "$0.00";
     document.getElementById("bill").style.border = "2px solid red";
+  } else if (isNaN(bill)) {
+    document.getElementById("billWarning").innerHTML = "Insert Total Amount";
   }
 }
