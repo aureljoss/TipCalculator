@@ -107,7 +107,7 @@ input {
 }
 
 #bill {
-  background-image: url("./images/icon-dollar.svg");
+  background-image: url("../images/icon-dollar.svg");
   background-repeat: no-repeat;
   background-position: 1em;
   background-size: 12px;
@@ -124,7 +124,7 @@ input {
 }
 
 #people {
-  background-image: url("./images/icon-person.svg");
+  background-image: url("../images/icon-person.svg");
   background-repeat: no-repeat;
   background-position: 1em;
   background-size: 12px;

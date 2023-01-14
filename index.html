@@ -40,7 +40,7 @@
                 id="bill"
                 name="bill"
                 class="blue"
-                placeholder="0.00"
+                value="0.00"
               />
             </form>
           </div>
@@ -52,7 +52,7 @@
             <button type="button" class="default-button" data-tip="0.18">
               18%
             </button>
-            <button type="button" id="twenty" data-tip="0.2">20%</button>
+            <button type="button" id="twenty" data-tip="0.2" onclick="twenty()">20%</button>
             <button type="button" class="default-button" data-tip="0.25">
               25%
             </button>
@@ -66,9 +66,10 @@
             <input
               type="text"
               id="people"
-              name="name"
+              name="people"
               class="blue"
-              placeholder="2"
+              value="2"
+              maxlength="2"
             />
           </div>
         </div>
@@ -85,7 +86,7 @@
                     type="text"
                     id="tip-amount"
                     name="tip-amount"
-                    value="$0.00"
+                    placeholder="$0.00"
                   />
                 </div>
                 <div class="calculations">
@@ -97,7 +98,7 @@
                       type="text"
                       id="total"
                       name="total"
-                      value="$0.00"
+                      placeholder="$0.00"
                     />
                   </div>
                 </div>
