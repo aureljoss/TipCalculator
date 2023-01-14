@@ -46,20 +46,20 @@
           </div>
           <label class="margin">Select Tip %</label>
           <div id="tip-percentage">
-            <button type="button" class="default-button" value="0.15" onclick="totals(this.value)">
+            <button type="button" class="default-button" value="15" onclick="totals(this.value)">
               15%
             </button>
-            <button type="button" class="default-button" value="0.18" onclick="totals(this.value)">
+            <button type="button" class="default-button" value="18" onclick="totals(this.value)">
               18%
             </button>
-            <button type="button" id="twenty" value="0.2" onclick="totals(this.value)">20%</button>
-            <button type="button" class="default-button" value="0.25" onclick="totals(this.value)">
+            <button type="button" id="twenty" value="20" onclick="totals(this.value)">20%</button>
+            <button type="button" class="default-button" value="25" onclick="totals(this.value)">
               25%
             </button>
-            <button type="button" class="default-button" value="0.3" onclick="totals(this.value)">
+            <button type="button" class="default-button" value="30" onclick="totals(this.value)">
               30%
             </button>
-            <input type="text" id="custom" name="custom" placeholder="Custom" />
+            <input type="text" id="custom" name="custom" placeholder="Custom" value="" oninput="totals(this.value)"/>
           </div>
           <div id="number-people" class="flex">
             <label for="people">Number of People</label>

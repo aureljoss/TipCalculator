@@ -12,7 +12,8 @@ function totals(tip) {
   const people = document.getElementById("people").value;
 
   // Calculates tip and total per person
-  const tipAmount = (bill * tip) / people;
+  const tipCalc=tip/100;
+  const tipAmount = (bill * tipCalc) / people;
   const totalPerson = tipAmount + bill / people;
 
   // Pushes the calculated amounts to inputs
