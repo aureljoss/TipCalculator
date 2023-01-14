@@ -280,7 +280,7 @@ input {
   .calculations input {
     background-color: #00474b;
     color: #26c2ae;
-    width: 100px;
+    min-width: 100px;
   }
 
   #logo {
