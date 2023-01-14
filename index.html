@@ -34,7 +34,10 @@
         <div class="half" id="white">
           <div>
             <form class="flex">
-              <label for="bill" id="bill-label">Bill</label>
+              <label for="bill" id="bill-label" class="labelWarnings">
+                <p>Bill</p>
+                <p class="warnings" id="billWarning"></p
+              ></label>
               <input
                 type="text"
                 id="bill"
@@ -46,23 +49,60 @@
           </div>
           <label class="margin">Select Tip %</label>
           <div id="tip-percentage">
-            <button type="button" class="default-button" value="15" onclick="totals(this.value)">
+            <button
+              type="button"
+              class="default-button"
+              value="15"
+              onclick="totals(this.value)"
+            >
               15%
             </button>
-            <button type="button" class="default-button" value="18" onclick="totals(this.value)">
+            <button
+              type="button"
+              class="default-button"
+              value="18"
+              onclick="totals(this.value)"
+            >
               18%
             </button>
-            <button type="button" id="twenty" value="20" onclick="totals(this.value)">20%</button>
-            <button type="button" class="default-button" value="25" onclick="totals(this.value)">
+            <button
+              type="button"
+              id="twenty"
+              value="20"
+              onclick="totals(this.value)"
+            >
+              20%
+            </button>
+            <button
+              type="button"
+              class="default-button"
+              value="25"
+              onclick="totals(this.value)"
+            >
               25%
             </button>
-            <button type="button" class="default-button" value="30" onclick="totals(this.value)">
+            <button
+              type="button"
+              class="default-button"
+              value="30"
+              onclick="totals(this.value)"
+            >
               30%
             </button>
-            <input type="text" id="custom" name="custom" placeholder="Custom" value="" oninput="totals(this.value)"/>
+            <input
+              type="text"
+              id="custom"
+              name="custom"
+              placeholder="Custom"
+              value=""
+              oninput="totals(this.value)"
+            />
           </div>
           <div id="number-people" class="flex">
-            <label for="people">Number of People</label>
+            <label for="people" class="labelWarnings">
+              <p>Number of People</p>
+              <p id="warnings" class="warnings"></p>
+            </label>
             <input
               type="text"
               id="people"

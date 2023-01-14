@@ -130,6 +130,15 @@ input {
   background-size: 12px;
 }
 
+.labelWarnings{
+  display:flex;
+  justify-content: space-between;
+}
+
+.warnings {
+  color: #E17457;
+}
+
 .blue {
   background-color: #f3f9fa;
 }

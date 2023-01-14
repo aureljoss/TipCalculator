@@ -12,11 +12,24 @@ function totals(tip) {
   const people = document.getElementById("people").value;
 
   // Calculates tip and total per person
-  const tipCalc=tip/100;
+  const tipCalc = tip / 100;
   const tipAmount = (bill * tipCalc) / people;
   const totalPerson = tipAmount + bill / people;
 
   // Pushes the calculated amounts to inputs
   document.getElementById("tip-amount").value = "$" + tipAmount.toFixed(2);
   document.getElementById("total").value = "$" + totalPerson.toFixed(2);
+
+  // Displays warning for invalid inputs
+  if (people < 1) {
+    document.getElementById("warnings").innerHTML = "Can't be 0";
+  } else if (people > 10) {
+    document.getElementById("warnings").innerHTML = "Can't be more than 10";
+  }
+  if (bill < 1) {
+    document.getElementById("billWarning").innerHTML = "Can't be 0";
+  } else if (bill > 1000) {
+    document.getElementById("billWarning").innerHTML =
+      "Can't be more than $1,000";
+  }
 }
