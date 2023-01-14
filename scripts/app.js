@@ -10,11 +10,16 @@ let billTotal = 0;
 let tipPercentage = 0;
 let peopleTotal = 0;
 
-const twenty = () => {
-      // Selecting the input element and get its value 
-    var tipAmount = document.getElementById("bill").value;
-    const people = document.getElementById("people").value;
-    document.getElementById("tip-amount").value=((tipAmount*0.2)/people);
-  
-    // Displaying the value
-    alert(inputVal);}
+const twentyTip = () => {
+  // Selecting the input elements and get their value
+  var bill = document.getElementById("bill").value;
+  const people = document.getElementById("people").value;
+
+  // Calculates tip and total per person
+  var tipAmount = (bill * 0.2) / people;
+  var totalPerson = tipAmount + bill / people;
+
+  // Pushes the calculated amounts to inputs
+  document.getElementById("tip-amount").value = tipAmount;
+  document.getElementById("total").value = totalPerson;
+};
