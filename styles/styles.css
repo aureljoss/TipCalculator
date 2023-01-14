@@ -101,8 +101,8 @@ input {
   font-size: 24px;
 }
 
-#bill::placeholder,
-#people::placeholder {
+#bill,
+#people {
   color: #00474b;
 }
 
